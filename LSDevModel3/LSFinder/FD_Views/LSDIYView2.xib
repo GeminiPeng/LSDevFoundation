@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="iN0-l3-epB" customClass="LSDIYView2">
+            <rect key="frame" x="0.0" y="0.0" width="120" height="150"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ui_destination_x.png" translatesAutoresizingMaskIntoConstraints="NO" id="XWd-sl-gJb">
+                    <rect key="frame" x="0.0" y="0.0" width="120" height="150"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YIu-TE-jlZ" userLabel="sub_titleLabel">
+                    <rect key="frame" x="7" y="127" width="106" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholderimage.png" translatesAutoresizingMaskIntoConstraints="NO" id="945-2K-6sN" userLabel="sub_imageView">
+                    <rect key="frame" x="7" y="5" width="106" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="ec4-Pg-sll"/>
+                        <constraint firstAttribute="width" constant="106" id="lwz-fu-9vf"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="YIu-TE-jlZ" secondAttribute="bottom" constant="2" id="6ix-zs-JNA"/>
+                <constraint firstItem="YIu-TE-jlZ" firstAttribute="top" secondItem="945-2K-6sN" secondAttribute="bottom" constant="2" id="CMS-SJ-zUg"/>
+                <constraint firstAttribute="bottom" secondItem="XWd-sl-gJb" secondAttribute="bottom" id="Cut-nV-B9c"/>
+                <constraint firstAttribute="trailing" secondItem="YIu-TE-jlZ" secondAttribute="trailing" constant="7" id="ILx-np-LMR"/>
+                <constraint firstItem="XWd-sl-gJb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="WUv-0D-NKi"/>
+                <constraint firstItem="XWd-sl-gJb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="a4j-Zt-Vt1"/>
+                <constraint firstItem="YIu-TE-jlZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="7" id="ieF-0c-I63"/>
+                <constraint firstItem="945-2K-6sN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="7" id="mKb-LI-KQD"/>
+                <constraint firstItem="945-2K-6sN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="niR-nZ-GQS"/>
+                <constraint firstAttribute="trailing" secondItem="XWd-sl-gJb" secondAttribute="trailing" id="nt9-uO-46Q"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="0.0"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="bwidth">
+                    <real key="value" value="0.0"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="sub_imageView" destination="945-2K-6sN" id="cEm-sB-OM8"/>
+                <outlet property="sub_titleLabel" destination="YIu-TE-jlZ" id="f4e-FY-kP4"/>
+            </connections>
+            <point key="canvasLocation" x="403" y="396"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="placeholderimage.png" width="100" height="100"/>
+        <image name="ui_destination_x.png" width="110" height="120"/>
+    </resources>
+</document>

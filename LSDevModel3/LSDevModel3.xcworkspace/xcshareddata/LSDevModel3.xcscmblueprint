@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "e72fd1f2-4d20-4849-81cf-23ac1e391593++8336",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "e72fd1f2-4d20-4849-81cf-23ac1e391593++8336" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "e72fd1f2-4d20-4849-81cf-23ac1e391593++8336" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7CCE62D2-DD8C-427C-AD51-A5B947FE8DF4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "e72fd1f2-4d20-4849-81cf-23ac1e391593++8336" : "%E3%80%90%E5%B7%A5%E7%A8%8BB%E3%80%91\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LSDevModel3",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LSDevModel3\/LSDevModel3.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.18.222\/svn\/IOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "e72fd1f2-4d20-4849-81cf-23ac1e391593++8336"
+    }
+  ]
+}

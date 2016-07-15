@@ -1,0 +1,9 @@
+/Users/tsou117/快盘/工作/天搜科技/【开发模板】/【工程B】/LSDevModel3/Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle
+/Users/tsou117/快盘/工作/天搜科技/【开发模板】/【工程B】/LSDevModel3/Pods/MJRefresh/MJRefresh/MJRefresh.bundle
+/Users/tsou117/快盘/工作/天搜科技/【开发模板】/【工程B】/LSDevModel3/Pods/MLInputDodger/Classes/MLInputDodger.bundle
+/Users/tsou117/快盘/工作/天搜科技/【开发模板】/【工程B】/LSDevModel3/Pods/Pingpp/lib/Channels/Alipay/AlipaySDK.bundle
+/Users/tsou117/快盘/工作/天搜科技/【开发模板】/【工程B】/LSDevModel3/Pods/Pingpp/lib/Pingpp.bundle
+/Users/tsou117/快盘/工作/天搜科技/【开发模板】/【工程B】/LSDevModel3/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle
+/Users/tsou117/快盘/工作/天搜科技/【开发模板】/【工程B】/LSDevModel3/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_5.0/UMSocialSDKResourcesNew.bundle
+/Users/tsou117/快盘/工作/天搜科技/【开发模板】/【工程B】/LSDevModel3/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle
+/Users/tsou117/快盘/工作/天搜科技/【开发模板】/【工程B】/LSDevModel3/Pods/UMengSocial/Umeng_SDK_Social_iOS_ARM64_5.0/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WeiboSDK.bundle

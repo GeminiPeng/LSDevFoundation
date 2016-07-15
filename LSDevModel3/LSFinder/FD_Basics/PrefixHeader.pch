@@ -1,0 +1,43 @@
+//
+//  PrefixHeader.pch
+//  LSDevModel3
+//
+//  Created by  tsou117 on 16/4/11.
+//  Copyright © 2016年 sen. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "LSCommonMacros.h"
+#import "LSFactory.h"
+#import "LSButton.h"
+
+#import <UIImageView+WebCache.h>
+#import <UIButton+WebCache.h>
+#import <AFNetworking.h>
+#import <SVProgressHUD.h>
+#import <MMDrawerController.h>
+#import <MMDrawerVisualState.h>
+#import <UIViewController+MMDrawerController.h>
+#import <SMPageControl.h>
+#import <MJRefresh.h>
+#import <UIView+MLInputDodger.h>
+#import <Pingpp.h>
+
+#import <MapKit/MapKit.h>
+#import <BMKMapManager.h>
+#import <BMKMapView.h>
+#import <BMKLocationService.h>
+
+#import <UMSocial.h>
+#import <UMSocialSnsService.h>
+#import <UMSocialWechatHandler.h>
+#import <UMSocialQQHandler.h>
+
+#import <GeTuiSdk.h>
+
+#endif /* PrefixHeader_pch */

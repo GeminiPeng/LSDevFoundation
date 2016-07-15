@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>All server</key>
+	<array>
+		<string>http://110</string>
+		<string>http://111</string>
+		<string>http://112</string>
+	</array>
+	<key>Use debugTool</key>
+	<true/>
+	<key>Use welcomeView</key>
+	<true/>
+	<key>Use SideBar</key>
+	<false/>
+	<key>Use TabBar</key>
+	<true/>
+	<key>Welcome pictures</key>
+	<array>
+		<string>loading1_1136.png</string>
+		<string>loading2_1136.png</string>
+	</array>
+</dict>
+</plist>

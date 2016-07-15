@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="LSCebianCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ui_cebian_0.png" translatesAutoresizingMaskIntoConstraints="NO" id="MDY-V5-m2T" userLabel="sub_imgview">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="MDY-V5-m2T" secondAttribute="bottom" id="dhX-q1-CMZ"/>
+                <constraint firstAttribute="trailing" secondItem="MDY-V5-m2T" secondAttribute="trailing" id="fVP-0J-IG2"/>
+                <constraint firstItem="MDY-V5-m2T" firstAttribute="leading" secondItem="KGk-i7-Jjw" secondAttribute="leading" id="nEx-df-LqB"/>
+                <constraint firstItem="MDY-V5-m2T" firstAttribute="top" secondItem="KGk-i7-Jjw" secondAttribute="top" id="tVj-Yy-B2t"/>
+            </constraints>
+            <connections>
+                <outlet property="sub_imageView" destination="MDY-V5-m2T" id="H3w-pw-n3i"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ui_cebian_0.png" width="225" height="68"/>
+    </resources>
+</document>

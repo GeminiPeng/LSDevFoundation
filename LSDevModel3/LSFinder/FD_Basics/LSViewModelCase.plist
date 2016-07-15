@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>LSSlideView</string>
+		<key>detail</key>
+		<string>循环滚动视图，广告位</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>LSHorizontalMenuView</string>
+		<key>detail</key>
+		<string>子栏目选择栏，子栏目</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>LSPageScrollView</string>
+		<key>detail</key>
+		<string>自定义page点，按钮容器，UIScrollView</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>LSButton</string>
+		<key>detail</key>
+		<string>按钮，配图可设置在文字右侧</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>LSEnterView</string>
+		<key>detail</key>
+		<string>模态输入框</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>LSPickerView</string>
+		<key>detail</key>
+		<string>选择器，UITableView</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>LSLayoutButtonsView</string>
+		<key>detail</key>
+		<string>宽度不同的按钮自动排列</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>LSImgZoomView</string>
+		<key>detail</key>
+		<string>图片缩放，单张，多张</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>FXBlurView</string>
+		<key>detail</key>
+		<string>毛玻璃</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>LSPaoMaView</string>
+		<key>detail</key>
+		<string>跑马灯</string>
+	</dict>
+</array>
+</plist>
