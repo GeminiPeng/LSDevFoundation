@@ -18,19 +18,19 @@
 }
 */
 
-- (void)setCornerRadius:(CGFloat)cornerRadius{
-    _cornerRadius = cornerRadius;
-    self.layer.cornerRadius = _cornerRadius;
-}
-
-- (void)setBcolor:(UIColor *)bcolor{
-    _bcolor = bcolor;
-    self.layer.borderColor = _bcolor.CGColor;
-}
-
-- (void)setBwidth:(CGFloat)bwidth{
-    _bwidth = bwidth;
-    self.layer.borderWidth = _bwidth;
-}
+//- (void)setCornerRadius:(CGFloat)cornerRadius{
+//    _cornerRadius = cornerRadius;
+//    self.layer.cornerRadius = _cornerRadius;
+//}
+//
+//- (void)setBcolor:(UIColor *)bcolor{
+//    _bcolor = bcolor;
+//    self.layer.borderColor = _bcolor.CGColor;
+//}
+//
+//- (void)setBwidth:(CGFloat)bwidth{
+//    _bwidth = bwidth;
+//    self.layer.borderWidth = _bwidth;
+//}
 
 @end

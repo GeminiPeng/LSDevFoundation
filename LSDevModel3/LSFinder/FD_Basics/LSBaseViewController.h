@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 
 
-#import "LSAFNetworkingManager.h"
 #import "LSCellDispose.h"
 #import "UINavigationController+JZExtension.h"
 
@@ -54,7 +53,6 @@
 
 //分享
 - (void)addShareButton;
-- (void)func_share;
 - (void)func_shareWithNeedDownImageWithImageUrl:(NSString*)imgurl text:(NSString *)sharetext contentUrl:(NSString *)contenturl;
 - (void)func_shareWithText:(NSString*)sharetext contentUrl:(NSString*)shareurl image:(UIImage*)image;
 

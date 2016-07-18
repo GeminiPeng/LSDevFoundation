@@ -20,9 +20,7 @@
 //是否使用辅助工具
 + (BOOL)useDebugTool;
 
-//
-//+ (BOOL)useHamburgerStyle;
-//+ (BOOL)useJustHomeView;
+
 + (BOOL)useWelcomeView;
 + (BOOL)useSideBar;
 + (BOOL)useTabBar;

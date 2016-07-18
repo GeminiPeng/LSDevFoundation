@@ -28,7 +28,7 @@
     _mapview = [[BMKMapView alloc] initWithFrame:CGRectZero];
     _mapview.mapType = BMKMapTypeStandard;
     _mapview.zoomLevel = 16.0f;
-    _mapview.backgroundColor = kBGC_contentView;
+    _mapview.backgroundColor = kColor_contentView;
     self.view = _mapview;
     
     //

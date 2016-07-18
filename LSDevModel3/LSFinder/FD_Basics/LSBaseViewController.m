@@ -29,9 +29,9 @@
     // Do any additional setup after loading the view.
         
     //背景
-    self.view.backgroundColor = kBGC_contentView;
+    self.view.backgroundColor = kColor_contentView;//kBGC_contentView;
     
-    kBGC_navBar(kColor_themeWithAlpha(0.5));
+    kColor_navBar(kColor_themeWithAlpha(0.5));
     kColor_navbarTitle([UIColor whiteColor]);
     kColor_navbarTintColor([UIColor whiteColor]);
 }
@@ -259,10 +259,6 @@
     
     UIBarButtonItem* rightItem = [[UIBarButtonItem alloc] initWithCustomView:btnv];
     self.navigationItem.rightBarButtonItem = rightItem;
-}
-
-- (void)func_share{
-    
 }
 
 - (void)func_shareWithNeedDownImageWithImageUrl:(NSString*)imgurl text:(NSString *)sharetext contentUrl:(NSString *)contenturl{

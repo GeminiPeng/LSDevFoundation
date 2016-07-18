@@ -8,14 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-#import "LSAFNetworkingManager.h"
 #import "LSCellDispose.h"
 
 
 @interface LSBaseView : UIView
 
-@property (nonatomic,assign)IBInspectable CGFloat cornerRadius;
-@property (nonatomic,assign)IBInspectable CGFloat bwidth;
-@property (nonatomic,assign)IBInspectable UIColor* bcolor;
+//在xib中设置圆角
+//@property (nonatomic,assign)IBInspectable CGFloat cornerRadius;
+//@property (nonatomic,assign)IBInspectable CGFloat bwidth;
+//@property (nonatomic,assign)IBInspectable UIColor* bcolor;
 
 @end

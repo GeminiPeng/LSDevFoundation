@@ -173,7 +173,7 @@
                                                                  self.subviews_h,
                                                                  kSCREEN_WIDTH,
                                                                  listheight) style:style];
-    _mytableview.backgroundColor = kBGC_contentView;
+    _mytableview.backgroundColor = kColor_contentView;
     _mytableview.tableFooterView = [UIView new];
     _mytableview.separatorColor = kColor_line;
     
@@ -219,7 +219,7 @@
                                                                            kSCREEN_WIDTH,
                                                                            listheight) collectionViewLayout:layout];
     
-    _mycollectionview.backgroundColor = kBGC_contentView;
+    _mycollectionview.backgroundColor = kColor_contentView;
     
     //
     [_mycollectionview registerClass:registerclass forCellWithReuseIdentifier:KCollectionViewCellReuseIdentifier];

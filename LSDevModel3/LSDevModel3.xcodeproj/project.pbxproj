@@ -77,7 +77,6 @@
 		E34123351C9F9E8900DF0B12 /* iconfont-shanchu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34123331C9F9E8900DF0B12 /* iconfont-shanchu@2x.png */; };
 		E34123371C9FA2AA00DF0B12 /* iconfont-tianjia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34123361C9FA2AA00DF0B12 /* iconfont-tianjia@2x.png */; };
 		E34123411CA0153900DF0B12 /* iconfont-dizhi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34123401CA0153900DF0B12 /* iconfont-dizhi@2x.png */; };
-		E34123461CA267FD00DF0B12 /* LaunchImg.png in Resources */ = {isa = PBXBuildFile; fileRef = E34123451CA267FD00DF0B12 /* LaunchImg.png */; };
 		E34123531CA3ABB400DF0B12 /* iconfont_jianshao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34123511CA3ABB400DF0B12 /* iconfont_jianshao@2x.png */; };
 		E34123541CA3ABB400DF0B12 /* iconfont_zengjia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E34123521CA3ABB400DF0B12 /* iconfont_zengjia@2x.png */; };
 		E353CC9E1D376A5E004B10E1 /* LSUserLoc.m in Sources */ = {isa = PBXBuildFile; fileRef = E353CC9D1D376A5E004B10E1 /* LSUserLoc.m */; };
@@ -246,7 +245,6 @@
 		E34123331C9F9E8900DF0B12 /* iconfont-shanchu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-shanchu@2x.png"; sourceTree = "<group>"; };
 		E34123361C9FA2AA00DF0B12 /* iconfont-tianjia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-tianjia@2x.png"; sourceTree = "<group>"; };
 		E34123401CA0153900DF0B12 /* iconfont-dizhi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-dizhi@2x.png"; sourceTree = "<group>"; };
-		E34123451CA267FD00DF0B12 /* LaunchImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImg.png; sourceTree = "<group>"; };
 		E34123511CA3ABB400DF0B12 /* iconfont_jianshao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont_jianshao@2x.png"; sourceTree = "<group>"; };
 		E34123521CA3ABB400DF0B12 /* iconfont_zengjia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont_zengjia@2x.png"; sourceTree = "<group>"; };
 		E353CC9C1D376A5E004B10E1 /* LSUserLoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSUserLoc.h; sourceTree = "<group>"; };
@@ -571,7 +569,6 @@
 				E3B17E711CA688150080DCDF /* loading1_1136.png */,
 				E3B17E731CA6881D0080DCDF /* loading2_1136.png */,
 				2025E1291C7D4BFA008695E3 /* Lbtn@2x.png */,
-				E34123451CA267FD00DF0B12 /* LaunchImg.png */,
 				2025E1401C7DB7D1008695E3 /* tabbar_1@2x.png */,
 				2025E1421C7DB844008695E3 /* tabbar_s_1@2x.png */,
 				20F4E76D1C7DDADB00791D93 /* placeholderimage@2x.png */,
@@ -820,7 +817,6 @@
 				E34123541CA3ABB400DF0B12 /* iconfont_zengjia@2x.png in Resources */,
 				20A414311C852A960009FD30 /* ui_cebian_1@2x.png in Resources */,
 				E3B17E551CA638600080DCDF /* day_2_5.png in Resources */,
-				E34123461CA267FD00DF0B12 /* LaunchImg.png in Resources */,
 				E3B17E5B1CA638600080DCDF /* day_3_3.png in Resources */,
 				20BC0E1C1C915B2000A0AB35 /* mark2@2x.png in Resources */,
 				20A413DC1C84164C0009FD30 /* tb2.png in Resources */,
@@ -1039,6 +1035,7 @@
 			baseConfigurationReference = FC0FEEA2347095E43FCB185C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
@@ -1057,6 +1054,7 @@
 			baseConfigurationReference = 15BD89FCE68D9A26B4B5D08B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Zhejiang Jurensheng Network Technology Co., Ltd.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Zhejiang Jurensheng Network Technology Co., Ltd.";
 				ENABLE_BITCODE = NO;

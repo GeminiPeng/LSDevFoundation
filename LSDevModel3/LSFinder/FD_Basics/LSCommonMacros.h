@@ -14,8 +14,10 @@
 
 #define kUrlScheme                      @"tsouXFJS"
 
+//友盟
 #define kUmKey          @"56f8a35267e58e941e001423"
 
+//个推
 #define kGtAppId        @"WAqvGGJmMb8GAZlBbo4PB5"   //测试-WAqvGGJmMb8GAZlBbo4PB5 正式-mCZSGFH4f9AmIXUfFfzOz2
 #define kGtAppkey       @"I1ab8xLoCw5Wvu8rOsyCA1"   //测试-I1ab8xLoCw5Wvu8rOsyCA1 正式-6RfQC2rknf7epJtOTTmvz7
 #define kGtAppSecret    @"X1VWrAW66GAr2K0kIHJhD9"   //测试-X1VWrAW66GAr2K0kIHJhD9 正式-tfQqoS8ew76WCTfxv3v7P3
@@ -23,19 +25,7 @@
 #define kMark_currServer                @"CURRSERVER"           //
 #define kMark_requestApis               @"REQUESTAPIS"          //
 
-#define kMark_tuangouAll                @"tuangouAll"           //所有团购
-#define kMark_tuangouCase               @"tuangouCase"          //团购分类
-#define kMark_zixun                     @"0"                //资讯
-#define kMark_zixunP                    @"1"               //特效资讯
-
-//确认订单界面参数规范
-#define kls_goodname    @"ls_goodname"
-#define kls_mainmdf     @"ls_mainmdf"
-#define kls_submdf      @"ls_submdf"
-#define kls_buycount    @"ls_buycount"
-#define kls_pic         @"ls_pic"
-#define kls_guige       @"ls_guige"
-#define kls_price       @"ls_price"
+#define kMark_userCookie                @"ticket"          //登录凭证
 
 #pragma mark - noti
 #define kNoti_debugTool                 @"NOTI_debugtool"       //
@@ -48,7 +38,7 @@
 //app名称
 #define kApp_name           [kLSBundle infoDictionary][@"CFBundleName"]
 #define kApp_downUrl        @"http://app.1035.mobi/kViJkz"
-#define kApp_detail         @"幸福江山是一款集城市热点、娱乐、购物、休闲、旅游及美食等为一体的手机客户端。全面展示江山当地的城市热点、民生起居、旅游景点等相关行业信息。"
+#define kApp_detail         @"iOS轻量级开发框架是一款具备主流App功能，如网络请求、导航风格、分享、推送、支付等，和常用开发小技巧，适合初级开发者使用。"
 
 #pragma mark - 尺寸
 
@@ -79,14 +69,15 @@
 
 #pragma mark - 其他
 
-//颜色
+//内容背景颜色
+#define kColor_contentView                [UIColor colorWithRed:0.976 green:0.976 blue:0.980 alpha:1]
 
-#define kBGC_contentView                [UIColor colorWithRed:0.976 green:0.976 blue:0.980 alpha:1]
 //导航栏背景颜色
-#define kBGC_navBar(A)                  [self.navigationController.navigationBar setBarTintColor:A]
+#define kColor_navBar(A)                  [self.navigationController.navigationBar setBarTintColor:A]
 
-//
-#define kBGC_navBar1(A,B)               [self.navigationController.navigationBar setBarTintColor:[UIColor colorWithPatternImage:[LSFactory fc_backgroundImageFromColor:A toColor:B frame:self.navigationController.navigationBar.bounds]]]
+//渐变颜色
+#define kColor_navBar1(A,B)               [self.navigationController.navigationBar setBarTintColor:[UIColor colorWithPatternImage:[LSFactory fc_backgroundImageFromColor:A toColor:B frame:self.navigationController.navigationBar.bounds]]]
+
 //line 颜色
 #define kColor_line                     [UIColor colorWithRed:0.902 green:0.902 blue:0.902 alpha:1]
 
@@ -122,24 +113,6 @@
 
 //设备系统
 #define kDevice_sysVersion              ([[UIDevice currentDevice] systemVersion])
-
-
-#pragma mark - 用户相关
-
-#define kMark_userinfo                  @"user_info"            //用户资料
-#define kMark_userid                    @"userid"               //id
-#define kMark_userCookie                @"ticket"          //登录凭证
-#define kMark_useraccount               @"username"         //登录账号
-#define kMark_username                  @"nickname"            //昵称
-#define kMark_userphone                 @"phone"            //电话
-#define kMark_userimgurl                @"head_img"          //头像地址
-#define kMark_userscore                 @"score"            //积分
-#define kMark_userbirthday              @"birthday"         //生日
-#define kMark_useremail                 @"email"            //邮箱
-#define kMark_usersex                   @"sex"              //性别 0保密 1男 2女
-
-#define kUser_name [[NSUserDefaults standardUserDefaults] stringForKey:kMark_username]
-#define KUser_imgurl [[NSUserDefaults standardUserDefaults] stringForKey:kMark_userimgurl]
 
 #pragma mark - 输出
 
