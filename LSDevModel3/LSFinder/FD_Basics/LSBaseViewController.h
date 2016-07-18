@@ -87,6 +87,15 @@
 - (void)func_goMap;
 - (void)func_callMapWithEndLocationOflatitudeString:(NSString*)latitude longitudeString:(NSString*)longitude endAddress:(NSString*)endaddress;
 
+/**
+ *  初始一个右侧时间按钮
+ *
+ *  @param title  文字
+ *  @param image  图片
+ *  @param action 时间
+ */
+- (void)addNavBarRightButtonWithTitle:(NSString*)title image:(UIImage*)image action:(SEL)action;
+
 #pragma mark
 
 - (UIButton*)addRequestButtonOnView:(UIView*)supview requestSEL:(SEL)sel;

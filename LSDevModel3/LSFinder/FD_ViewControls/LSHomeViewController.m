@@ -7,7 +7,7 @@
 //
 
 #import "LSHomeViewController.h"
-
+#import "LSWebViewController.h"
 
 
 @interface LSHomeViewController ()
@@ -31,11 +31,14 @@
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(actionOfSideViewSelect:) name:kNoti_cebianSelect object:nil];
     };
     
-    //subviews
+    //
     
-    /*
-        svn测试
-     */
+    UIButton* detailbtn = [UIButton buttonWithType:UIButtonTypeSystem];
+    detailbtn.frame = CGRectMake(0, 0, kSCREEN_WIDTH, 88);
+    [detailbtn setTitle:@"功能介绍" forState:UIControlStateNormal];
+    [detailbtn addTarget:self action:@selector(details) forControlEvents:UIControlEventTouchUpInside];
+    [self addSubview:detailbtn];
+    
 }
 
 
@@ -47,7 +50,13 @@
 }
 
 #pragma mark -
-
+- (void)details{
+    //
+    LSWebViewController* vc = [[LSWebViewController alloc] init];
+    vc.defaultTitle = @"功能介绍";
+    vc.urlStr = @"http://www.jianshu.com/p/66f4c4c90f46";
+    [self.navigationController pushViewController:vc animated:YES];
+}
 
 #pragma mark - 侧边栏点击
 - (void)actionOfSideViewSelect:(NSNotification*)sender{

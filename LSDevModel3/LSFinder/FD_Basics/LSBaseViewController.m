@@ -361,6 +361,28 @@
     [bgview addSubview:imgv];
 }
 
+#pragma mark -
+
+- (void)addNavBarRightButtonWithTitle:(NSString*)title image:(UIImage*)image action:(SEL)action{
+    //
+    UIButton* btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(0, 0, 44, 44);
+    btn.accessibilityIdentifier = @"0";
+    btn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
+    
+    if (title) {
+        [btn setTitle:title forState:UIControlStateNormal];
+        btn.titleLabel.font = [UIFont systemFontOfSize:14];
+        [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    }
+    if (image) {
+        [btn setImage:image forState:UIControlStateNormal];
+    }
+    [btn addTarget:self action:action forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem* rightItem = [[UIBarButtonItem alloc] initWithCustomView:btn];
+    self.navigationItem.rightBarButtonItem = rightItem;
+}
+
 #pragma mark - 基本功能
 
 - (void)vcback{
